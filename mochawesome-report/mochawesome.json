@@ -1,0 +1,355 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 8,
+    "passes": 7,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-04-24T11:00:06.487Z",
+    "end": "2024-04-24T11:00:52.666Z",
+    "duration": 46179,
+    "testsRegistered": 8,
+    "passPercent": 87.5,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "56850453-5711-478e-a1f3-d951b7c7c557",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "09190da3-6da4-494c-b148-d6ae3753ac54",
+          "title": "Testing wallet",
+          "fullFile": "C:\\Users\\akakshin\\Desktop\\Training\\Selenium\\test\\act20.spec.ts",
+          "file": "\\test\\act20.spec.ts",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Perform this test",
+              "fullTitle": "Testing wallet Perform this test",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(`I had earned ${earned}`);\nconsole.log(`I  spent ${spent}`);\nlet remaining = earned - spent;\nconsole.log(`I have  ${remaining}`);\nassert_1.default.equal(remaining, expected);",
+              "err": {},
+              "uuid": "1eac0341-01c0-4b7a-9954-40516d1b2df0",
+              "parentUUID": "09190da3-6da4-494c-b148-d6ae3753ac54",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Perform this test",
+              "fullTitle": "Testing wallet Perform this test",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(`I had earned ${earned}`);\nconsole.log(`I  spent ${spent}`);\nlet remaining = earned - spent;\nconsole.log(`I have  ${remaining}`);\nassert_1.default.equal(remaining, expected);",
+              "err": {},
+              "uuid": "17a04a14-d19f-4634-ac96-fbefccdf8fa4",
+              "parentUUID": "09190da3-6da4-494c-b148-d6ae3753ac54",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1eac0341-01c0-4b7a-9954-40516d1b2df0",
+            "17a04a14-d19f-4634-ac96-fbefccdf8fa4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "db7494e1-e41f-4129-a784-0245ef6e9176",
+          "title": "Testing Math functions",
+          "fullFile": "C:\\Users\\akakshin\\Desktop\\Training\\Selenium\\test\\first_test.spec.ts",
+          "file": "\\test\\first_test.spec.ts",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "60de90cb-e322-4d87-ab51-d23f7e8d20c1",
+              "title": "Testing Root function",
+              "fullFile": "C:\\Users\\akakshin\\Desktop\\Training\\Selenium\\test\\first_test.spec.ts",
+              "file": "\\test\\first_test.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return 6 for sqaureRoot of 36",
+                  "fullTitle": "Testing Math functions Testing Root function should return 6 for sqaureRoot of 36",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert_1.default.equal(Math.sqrt(36), 6);",
+                  "err": {},
+                  "uuid": "a13c0894-ff3b-47a8-a185-7cbf54cdb0fe",
+                  "parentUUID": "60de90cb-e322-4d87-ab51-d23f7e8d20c1",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should return 6 for sqaureRoot of 25",
+                  "fullTitle": "Testing Math functions Testing Root function should return 6 for sqaureRoot of 25",
+                  "timedOut": false,
+                  "duration": 12,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert_1.default.equal(Math.sqrt(25), 4);",
+                  "err": {
+                    "message": "AssertionError: 5 == 4",
+                    "estack": "AssertionError [ERR_ASSERTION]: 5 == 4\n    at Context.<anonymous> (test\\first_test.spec.ts:10:20)\n    at processImmediate (node:internal/timers:478:21)",
+                    "diff": "- 5\n+ 4\n"
+                  },
+                  "uuid": "86768adb-4c2a-4654-8018-9d4828bef3ef",
+                  "parentUUID": "60de90cb-e322-4d87-ab51-d23f7e8d20c1",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a13c0894-ff3b-47a8-a185-7cbf54cdb0fe"
+              ],
+              "failures": [
+                "86768adb-4c2a-4654-8018-9d4828bef3ef"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 12,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "c6f22d8c-453f-4917-bf81-95ce94c02121",
+              "title": "Testing pow function",
+              "fullFile": "C:\\Users\\akakshin\\Desktop\\Training\\Selenium\\test\\first_test.spec.ts",
+              "file": "\\test\\first_test.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return 100  for pow of 10",
+                  "fullTitle": "Testing Math functions Testing pow function should return 100  for pow of 10",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "assert_1.default.equal(Math.pow(10, 2), 100);",
+                  "err": {},
+                  "uuid": "3cd09041-55f0-4f75-b629-74c1714c4229",
+                  "parentUUID": "c6f22d8c-453f-4917-bf81-95ce94c02121",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "3cd09041-55f0-4f75-b629-74c1714c4229"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5ea8b5ad-59f4-4caf-9df7-4ecc92ff6d93",
+          "title": "Selenium Activity 1",
+          "fullFile": "C:\\Users\\akakshin\\Desktop\\Training\\Selenium\\test\\seleniumdemo.spec.ts",
+          "file": "\\test\\seleniumdemo.spec.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: WebDriver Setup in \"Selenium Activity 1\"",
+              "fullTitle": "Selenium Activity 1 \"before all\" hook: WebDriver Setup in \"Selenium Activity 1\"",
+              "timedOut": false,
+              "duration": 39936,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return __awaiter(this, void 0, void 0, function* () {\n    driver = yield new selenium_webdriver_1.Builder().forBrowser(\"firefox\").build();\n});",
+              "err": {},
+              "uuid": "a148d1c5-6808-4cc3-b81e-f1f3db407f4d",
+              "parentUUID": "5ea8b5ad-59f4-4caf-9df7-4ecc92ff6d93",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: WebDriver Teardown in \"Selenium Activity 1\"",
+              "fullTitle": "Selenium Activity 1 \"after all\" hook: WebDriver Teardown in \"Selenium Activity 1\"",
+              "timedOut": false,
+              "duration": 1499,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return __awaiter(this, void 0, void 0, function* () {\n    yield driver.quit();\n});",
+              "err": {},
+              "uuid": "4a85b7fe-4ba9-4026-9fb3-89ae0f2ee074",
+              "parentUUID": "5ea8b5ad-59f4-4caf-9df7-4ecc92ff6d93",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should open https://training-support.net",
+              "fullTitle": "Selenium Activity 1 should open https://training-support.net",
+              "timedOut": false,
+              "duration": 3283,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return __awaiter(this, void 0, void 0, function* () {\n    yield driver.get(\"https://training-support.net\");\n    yield driver.sleep(1000);\n    assert_1.default.equal(yield driver.getTitle(), \"Training Support\");\n});",
+              "err": {},
+              "uuid": "8dbbd3a0-1506-40d5-b618-1ef0abfaf15c",
+              "parentUUID": "5ea8b5ad-59f4-4caf-9df7-4ecc92ff6d93",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should find the About Us button",
+              "fullTitle": "Selenium Activity 1 should find the About Us button",
+              "timedOut": false,
+              "duration": 70,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return __awaiter(this, void 0, void 0, function* () {\n    const button = yield driver.findElement(selenium_webdriver_1.By.linkText(\"About Us\"));\n    assert_1.default.ok(button);\n});",
+              "err": {},
+              "uuid": "578c309c-c071-4ace-befb-d00c26e6967e",
+              "parentUUID": "5ea8b5ad-59f4-4caf-9df7-4ecc92ff6d93",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should take us to the About page when clicked",
+              "fullTitle": "Selenium Activity 1 should take us to the About page when clicked",
+              "timedOut": false,
+              "duration": 1358,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return __awaiter(this, void 0, void 0, function* () {\n    const button = yield driver.findElement(selenium_webdriver_1.By.linkText(\"About Us\"));\n    yield button.click();\n    yield driver.sleep(1000);\n    assert_1.default.equal(yield driver.getTitle(), \"About Training Support\");\n});",
+              "err": {},
+              "uuid": "9c00a0fc-75a5-4d8e-be77-f44647d572b6",
+              "parentUUID": "5ea8b5ad-59f4-4caf-9df7-4ecc92ff6d93",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8dbbd3a0-1506-40d5-b618-1ef0abfaf15c",
+            "578c309c-c071-4ace-befb-d00c26e6967e",
+            "9c00a0fc-75a5-4d8e-be77-f44647d572b6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4711,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 120000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
